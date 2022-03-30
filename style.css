@@ -1,0 +1,229 @@
+body {
+	font-family: 'League Gothic', sans-serif;
+}
+header {
+	background: #111111;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 1650px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 260px;
+	right: 0;
+}
+
+nav li {
+	display: inline; 
+	margin: 0 0 0 20px;
+
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav a:hover {
+	color: steelblue;
+}
+
+.produtos {
+	width: 1400px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border-color: #000000;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: slateblue;
+
+}
+
+.produtos li:active {
+	border-color: green;
+}
+
+.produtos li:hover h2 {
+	font-size: 36px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase
+}
+
+.descricao-produto {
+	font-size: 18px;
+}
+
+.preco-produto {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px 0 0;
+}
+
+footer {
+	padding: 70px 0;
+	text-align: center;
+	background: #111111;
+}
+
+footer p {
+	color: #dddddd;
+	font-size: 20px;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label. form legend {
+	display: block;
+	font-size: 20 px;
+	margin: 0 0 5px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 55px;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 30%;
+	padding: 10px 0;
+	background: seagreen;
+	font-weight: bold;
+	border: none;
+	border-radius: 6px;
+	font-size: 16px;
+	color: white;
+	display: block;
+	margin: 5px 0;
+	transition: 1s background;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: green;
+	transform: scale(1.1);
+
+}
+
+thead {
+	background: #111111;
+	color: white;
+	font-size: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+/* css da página inicial*/
+.banner {
+	width: 100%;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 4em;
+	margin: 90px 0 20px;
+	clear: left;
+}
+
+.principal p {
+	margin: 0 0 1em;
+	font-family: 'League Spartan', sans-serif;
+	font-size: 22px;
+}
+
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 430px;
+	float: left;
+	margin: 0 20px 20px 0;
+
+}
+
+.imagembeneficios {
+	width: 100%;
+
+}
+
+.itens {
+	font-size: 22px;
+	margin: 0 0 10px 0;
+	font-family: 'League Spartan', sans-serif;
+	text-align: center;
+	clear: top;
+
+}
+
+.mapa{
+	padding: 3em 0;
+
+}
+
+.mapa p {
+	font-family: 'League Spartan', sans-serif;
+	font-size: 	22px;
+	margin: 0 0 1em;
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .mapa,   {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+
+	}
+
+	nav {
+		position: static;
+	}
+}
